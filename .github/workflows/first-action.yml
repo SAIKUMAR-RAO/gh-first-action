@@ -9,4 +9,7 @@ jobs:
       - name: Print Greeting
         run: echo "Hello World!"
       - name: Print GoofBye
-        run: echo "Done - Bye"
+        run: |
+            echo "Done"
+            echo "Bye"
+            
